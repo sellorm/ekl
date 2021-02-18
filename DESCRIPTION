@@ -1,0 +1,17 @@
+Package: ekl
+Title: R Based Controls For Elgato Key Lights
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Mark",
+           family = "Sellors",
+           role = c("aut", "cre"),
+           email = "rstats@5vcc.com")
+Description: Provides functions to control Elgato Key lights using their
+  built in API.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+  httr
